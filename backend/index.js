@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var db = mysql.createConnection({
     host     : 'localhost',
     user     : 'bizCard',
-    password : 'secret',
+    password : 'bizCard1234',
     database : 'bizCardDB'
 });
 

@@ -35,6 +35,10 @@ class AddCard extends Component {
         }
         )
         this.setModalVisible(false)
+        this.setState({
+          handle: "",
+          url:""
+        })
     }
 
   }
